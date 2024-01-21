@@ -29,7 +29,4 @@
 <a href="https://www.instagram.com/buzz.paulo/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 <a href="https://medium.com/@paulo.campos.dev" target="_blank"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" target="_blank"></a>
 <a href="https://dev.to/paulocod" target="_blank"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" target="_blank"></a>
-
 </div>
-
-![Snake animation](https://github.com/paulocod/paulocod/blob/output/github-contribution-grid-snake.svg)
