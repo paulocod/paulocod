@@ -1,32 +1,27 @@
-## Eae eu sou Paulo Campos, criador de conteúdo de programação e tecnologia!
+<div align="center">
+
+[![Hello World, I'm Paulo!](assets/header.gif)](https://github.com/paulocod)
+
+[![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/paulovcampos/) &nbsp;
+[![Gmail](https://skillicons.dev/icons?i=gmail)](mailto:paulo.campos.dev@gmail.com?subject=Hello%20Paulo,%20From%20Github) &nbsp;
 
 ---
-<div style="display: inline_block"><br>
-  <a href="https://github.com/paulocod">
-  <img height="140em" src="https://github-readme-stats.vercel.app/api?username=paulocod&show_icons=true&theme=dark"/>
-  <img height="140em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=paulocod&layout=compact&langs_count=7&theme=dark"/>
-</div>
 
----
+<p>
+  <img height="140em" alt="github stats" src="https://github-readme-stats.vercel.app/api?username=paulocod&show_icons=true&theme=dark"/>
+  <img height="140em" alt="most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=paulocod&layout=compact&langs_count=7&theme=dark"/>
+<p/>
 
-<div style="display: inline_block"><br>
-<img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="36" height="36" alt="git"/>
-<img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="36" height="36" alt="HTML5"/>
-<img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="36" height="36" alt="CSS3"/>
-<img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="36" height="36" alt="JS"/>
-<img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="36" height="36" alt="JS"/>
-<img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="36" height="36" alt="docker"/>
-<img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="36" height="36" alt="postgresql"/>
-<img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="36" height="36" alt="redis"/>
-<img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="36" height="36" alt="flutter"/>
-<img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="36" height="36" alt="vscode"/>
-</div>
+## 💻 My Tech Stack:
 
-<div style="display: inline_block"><br>
-  <a href="https://www.youtube.com/channel/UCwWJEbTXyAjlYpSRfPedy4w" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
-<a href = "mailto:paulo.campos.dev@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-<a href="https://www.linkedin.com/in/paulovcampos/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-<a href="https://www.instagram.com/buzz.paulo/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-<a href="https://medium.com/@paulo.campos.dev" target="_blank"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" target="_blank"></a>
-<a href="https://dev.to/paulocod" target="_blank"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" target="_blank"></a>
+[![Aws, Sentry, Docker, Linux, Git, Node.js, TypeScript, Redis, PostgreSQL, Next.js, TailwindCSS, Python, Dart](https://skillicons.dev/icons?i=aws,sentry,docker,linux,git,nodejs,ts,redis,postgresql,next,tailwind,python,dart)](https://skillicons.dev)
+
+## 💡 Blogs:
+<p>
+    <a target="_blank"href="https://medium.com/@paulo.campos.dev"><img alt="Medium badge" src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" /></a>&nbsp;&nbsp;
+    <a target="_blank"href="https://dev.to/paulocod"><img alt="dev.to badge" src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" /></a>&nbsp;&nbsp;
+</p>
+
+[![A random quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)](https://github.com/piyushsuthar/github-readme-quotes)
+
 </div>
