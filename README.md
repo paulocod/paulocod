@@ -4,8 +4,7 @@
 
 [![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/paulovcampos/) &nbsp;
 [![Gmail](https://skillicons.dev/icons?i=gmail)](mailto:paulo.campos.dev@gmail.com?subject=Hello%20Paulo,%20From%20Github) &nbsp;
-
----
+## Want to see a little more, take a look at my [Portfolio](https://paulocod.github.io/Portfolio/)
 
 <p>
   <img height="140em" alt="github stats" src="https://github-readme-stats.vercel.app/api?username=paulocod&show_icons=true&theme=dark"/>
