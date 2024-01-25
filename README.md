@@ -8,7 +8,7 @@
 
 <p>
   <img height="140em" alt="github stats" src="https://github-readme-stats.vercel.app/api?username=paulocod&show_icons=true&theme=dark"/>
-  <img height="140em" alt="most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=paulocod&layout=compact&langs_count=7&theme=dark"/>
+  <img height="140em" alt="most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=paulocod&layout=compact&langs_count=7&size_weight=0.3&count_weight=0.7&theme=dark"/>
 <p/>
 
 ## 💻 My Tech Stack:
