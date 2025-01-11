@@ -1,0 +1,35 @@
+general.live_config_reload = true
+general.import = ["~/.config/alacritty/catppuccin/catppuccin-mocha.toml"]
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding = { x = 10, y = 10 }
+opacity = 0.90
+decorations = "none"
+startup_mode = "Maximized"
+dynamic_padding = true
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+size = 14.0
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[cursor]
+style = "Block"
+unfocused_hollow = true
+
+[keyboard]
+bindings = [
+  { key = "V", mods = "Control|Shift", action = "Paste" },
+  { key = "C", mods = "Control|Shift", action = "Copy" },
+  { key = "N", mods = "Control|Shift", action = "CreateNewWindow" }
+]
+
+[mouse]
+hide_when_typing = true
