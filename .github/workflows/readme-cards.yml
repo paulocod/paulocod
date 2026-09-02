@@ -6,26 +6,27 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  # Card rendering runs with a read-only token: the third-party action never
+  # gets credentials that could write to the repo. The SVGs are handed to the
+  # commit job as an artifact.
+  generate:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write
+      contents: read
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
 
-      # `token` uses GRS_PAT when the secret exists, otherwise falls back to the
-      # built-in GITHUB_TOKEN. GITHUB_TOKEN only sees public activity; to include
-      # private contributions, add a GRS_PAT secret (classic PAT, scopes `repo`
-      # and `read:user`) and the cards pick it up on the next run — no edit here.
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=dark&count_private=true&include_all_commits=true
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=dark&include_all_commits=true
           path: profile/stats.svg
-          token: ${{ secrets.GRS_PAT || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
       - name: Generate top languages card
@@ -34,8 +35,29 @@ jobs:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=7&size_weight=0.3&count_weight=0.7&theme=dark
           path: profile/top-langs.svg
-          token: ${{ secrets.GRS_PAT || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: cards
+          path: profile/*.svg
+          if-no-files-found: error
+
+  commit:
+    needs: generate
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/download-artifact@v8
+        with:
+          name: cards
+          path: profile
 
       - name: Commit cards
         run: |
