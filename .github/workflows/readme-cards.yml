@@ -28,6 +28,10 @@ jobs:
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
+          # Without this the action defaults to core_version "v2" and npm-installs
+          # the floating latest 2.x at run time, so pinning the action by SHA would
+          # not pin the code that actually renders the card and reads the token.
+          core_version: 2.1.5
 
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
@@ -37,6 +41,10 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
+          # Without this the action defaults to core_version "v2" and npm-installs
+          # the floating latest 2.x at run time, so pinning the action by SHA would
+          # not pin the code that actually renders the card and reads the token.
+          core_version: 2.1.5
 
       - uses: actions/upload-artifact@v7
         with:
