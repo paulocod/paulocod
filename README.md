@@ -1,4 +1,4 @@
- <div align="center">
+*<div align="center">
 
 [![Hello World, I'm Paulo!](assets/header.gif)](https://github.com/paulocod)
 
@@ -22,11 +22,13 @@
 
 ### About me
 
-- Software Engineer with **7 years of experience** building and modernizing software products, specializing in backend engineering, software architecture and distributed systems.
-- Currently leading technology transformation at Rentbrella, modernizing a legacy ecosystem of approximately 40 microservices into a new architecture based on six core services, supporting an operation with 1,300+ self-service machines.
-- Experience across rental, payments, recruitment, digital signatures and enterprise HR platforms, including applications used by more than 10,000 employees.
-- Hands-on experience with cloud infrastructure, CI/CD, observability, system design and technical leadership.
-- Open to remote opportunities with international engineering teams.
+- **7+ years of software engineering experience** across:
+  - **Rentbrella**: Technology transformation, rental platforms and payment systems supporting 1,300+ self-service machines.
+  - **InHire**: Recruitment platforms, candidate search and filtering systems.
+  - **1Doc**: Electronic signature platforms and digital document workflows integrated with Gov.br.
+  - **Grupo Jacto**: Enterprise HR applications used by 10,000+ employees.
+- **Backend engineering and architecture:** building scalable services, modernizing legacy systems and working with cloud infrastructure.
+- **Open to remote Backend Engineer opportunities** with international teams.
 
 ### Tech Stack
 
@@ -58,9 +60,9 @@
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
   <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white"/>
   <img src="https://img.shields.io/badge/Amazon_SQS-FF9900?style=for-the-badge&logo=amazonsqs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Amazon_SNS-FF9900?style=for-the-badge&logo=amazonsns&logoColor=white"/>
 </p>
 
 **Frontend & Mobile**
@@ -86,14 +88,11 @@ A selection of engineering projects, experiments and technical explorations.
 
 *More projects and technical documentation coming soon.*
 
-### Writing & Knowledge Sharing
+### Writing
 
 <p>
   <a href="https://medium.com/@paulo.campos.dev">
     <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"/>
-  </a>
-  <a href="https://dev.to/paulocod">
-    <img src="https://img.shields.io/badge/DEV_Community-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white"/>
   </a>
 </p>
 
@@ -106,3 +105,4 @@ A selection of engineering projects, experiments and technical explorations.
 <em>Building, learning and sharing along the way.</em>
 
 </div>
+*
