@@ -1,0 +1,57 @@
+export ANDROID_HOME=/Android/Sdk
+export PATH=$ANDROID_HOME/platform-tools:$ANDROID_HOME/cmdline-tools/latest/bin:$PATH
+
+# ---- PATH / env ----
+export PATH="$HOME/.local/bin:$PATH"
+export COLORTERM=truecolor
+export GPG_TTY=$(tty)
+
+# ---- Histórico (o atuin cuida da busca; isso aqui é o fallback do zsh) ----
+HISTFILE=~/.zsh_history
+HISTSIZE=50000
+SAVEHIST=50000
+setopt SHARE_HISTORY HIST_IGNORE_ALL_DUPS HIST_IGNORE_SPACE HIST_REDUCE_BLANKS
+
+# ---- Comportamento ----
+setopt AUTO_CD INTERACTIVE_COMMENTS
+bindkey -e
+bindkey '^[[1;5C' forward-word
+bindkey '^[[1;5D' backward-word
+
+# ---- Completion ----
+# zsh-autocomplete roda o compinit sozinho: não chamar compinit neste arquivo
+fpath=($HOME/.zsh/zsh-completions/src $fpath)
+source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+
+# ---- Ferramentas (instaladas via mise) ----
+eval "$(mise activate zsh)"
+eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
+source <(fzf --zsh)              # Ctrl+T arquivos, Alt+C pastas
+eval "$(atuin init zsh)"         # Ctrl+R / seta pra cima (sobrescreve o do fzf)
+
+# ---- Opcionais: só carregam se existirem nesta máquina ----
+export BUN_INSTALL="$HOME/.bun"
+[ -d "$BUN_INSTALL" ] && export PATH="$BUN_INSTALL/bin:$PATH"
+[ -s "$BUN_INSTALL/_bun" ] && source "$BUN_INSTALL/_bun"
+
+export ANDROID_HOME=$HOME/Android/Sdk
+[ -d "$ANDROID_HOME" ] && export PATH=$PATH:$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools/bin
+[ -d "$HOME/.maestro/bin" ] && export PATH=$PATH:$HOME/.maestro/bin
+
+# ---- Aliases ----
+alias ls='eza --icons --group-directories-first'
+alias ll='eza -la --icons --git --group-directories-first'
+alias lt='eza --tree --level=2 --icons'
+alias cat='bat --paging=never'
+alias grep='grep --color'
+alias egrep='egrep --color'
+alias lzd='lazydocker'
+alias dps='docker ps --format "{{.Names}}\t{{.Image}}\t{{.Status}}" | sort | column -t'
+alias uprepos='cd ~/Projects/alexandria/repo-script && node updateRepos.js'
+export BAT_THEME="Catppuccin Mocha"
+export FZF_DEFAULT_OPTS="--height 40% --layout=reverse --border"
+
+# ---- Plugins (syntax highlighting por último) ----
+source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

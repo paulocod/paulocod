@@ -1,0 +1,57 @@
+[tools]
+# linguagens (projetos fixam a própria versão via .tool-versions / .mise.toml)
+node = "24"
+go = "latest"
+python = "3.14"
+rust = "stable"
+ruby = "latest"
+erlang = "latest"
+elixir = "latest"
+
+# infra
+terraform = "latest"
+terragrunt = "latest"
+
+# terminal
+starship = "latest"
+atuin = "latest"
+fzf = "latest"
+zoxide = "latest"
+eza = "latest"
+bat = "latest"
+ripgrep = "latest"
+jq = "latest"
+
+# cloud
+gh = "latest"
+gcloud = "latest"
+awscli = "latest"
+
+# editor e CLIs
+neovim = "latest"
+lazygit = "latest"
+lazydocker = "latest"
+uv = "latest"
+bun = "latest"
+grex = "latest"
+"cargo:procs" = "latest"
+"cargo:ai-jail" = "latest"
+"cargo:ztl-cli" = "latest"
+
+# ci
+actionlint = "latest"
+act = "latest"
+
+# go
+golangci-lint = "latest"
+"go:golang.org/x/tools/gopls" = "latest"
+"go:github.com/go-delve/delve/cmd/dlv" = "latest"
+"go:go.uber.org/mock/mockgen" = "latest"
+
+# npm global
+"npm:firebase-tools" = "latest"
+"npm:serverless" = "latest"
+"npm:tldr" = "latest"
+chezmoi = "latest"
+gitleaks = "latest"
+"npm:ccusage" = "latest"
